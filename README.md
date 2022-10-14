@@ -6,6 +6,7 @@
 
 For activity screen use `getWindow()`
 For fragments screen use `getActivity()`
+
 ```java
 {
   getWindow().getDecorView().setSystemUiVisibility( View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY ); 
@@ -27,21 +28,10 @@ you can use `TRANSPARENT` or `Opacity` [8-digit Hexadecimal](https://davidwalsh.
 ```
 
 
-#### screen
+#### Screen Customization
 
 
-
-## Example1
-| linear1     | linear2      | output     |
-| ------------- | ------------- | -------- |
-| ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/58bbbf3025eed636c2d54d8e354a53bc96db0b91/app/src/main/res/drawable/HD-Player_1efIVHaL6g.png?raw=true)          | ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/4639de590ef6a8c9fff734646de417e0c4b89a7e/app/src/main/res/drawable/HD-Player_9owIo7fyWW.png?raw=true)         | ![ouutput](https://github.com/19ProgramminG75/CustomizeBlocks/blob/4639de590ef6a8c9fff734646de417e0c4b89a7e/app/src/main/res/drawable/HD-Player_v7NMBcBWHI.png?raw=true)  |
-
-## Example2
-| linear1     | linear2      | output     |
-| ------------- | ------------- | -------- |
-| ![linear1](https://github.com/19ProgramminG75/CustomizeBlocks/blob/399f39aacf644a6bc98efeac95eb2eaa947fb831/app/src/main/res/drawable/HD-Player_n7lP7sgl7U.png?raw=true)          | ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/main/app/src/main/res/drawable/HD-Player_aSNwEswaBW.png?raw=true)         | ![ouutput](https://github.com/19ProgramminG75/CustomizeBlocks/blob/399f39aacf644a6bc98efeac95eb2eaa947fb831/app/src/main/res/drawable/HD-Player_FpDXC6fTDz.png?raw=true)  |
-
-
+### screen code
 ```java
 DisplayMetrics displayMetrics = new DisplayMetrics();
 
@@ -81,4 +71,17 @@ linear2.setLayoutParams(new LinearLayout.LayoutParams((int) width_px,(int) heigh
 [double statusBarHeight = Math.ceil(25 * Resources.getSystem().getDisplayMetrics().density);](https://stackoverflow.com/a/7643649/19917623) origin stockoverflow
 
 -----
+## Examples
+-----
+to achive thant output you need to use [Status Rar](https://github.com/19ProgramminG75/CustomizeBlocks/blob/main/README.md#status-bar)
+and use this auto scaling to get the perfect output [Screen](https://github.com/19ProgramminG75/CustomizeBlocks/edit/main/README.md#screen-code)
+## Example1
 
+| linear1     | linear2      | output     |
+| ------------- | ------------- | -------- |
+| ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/58bbbf3025eed636c2d54d8e354a53bc96db0b91/app/src/main/res/drawable/HD-Player_1efIVHaL6g.png?raw=true)          | ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/4639de590ef6a8c9fff734646de417e0c4b89a7e/app/src/main/res/drawable/HD-Player_9owIo7fyWW.png?raw=true)         | ![ouutput](https://github.com/19ProgramminG75/CustomizeBlocks/blob/4639de590ef6a8c9fff734646de417e0c4b89a7e/app/src/main/res/drawable/HD-Player_v7NMBcBWHI.png?raw=true)  |
+-----
+## Example2
+| linear1     | linear2      | output     |
+| ------------- | ------------- | -------- |
+| ![linear1](https://github.com/19ProgramminG75/CustomizeBlocks/blob/399f39aacf644a6bc98efeac95eb2eaa947fb831/app/src/main/res/drawable/HD-Player_n7lP7sgl7U.png?raw=true)          | ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/main/app/src/main/res/drawable/HD-Player_aSNwEswaBW.png?raw=true)         | ![ouutput](https://github.com/19ProgramminG75/CustomizeBlocks/blob/399f39aacf644a6bc98efeac95eb2eaa947fb831/app/src/main/res/drawable/HD-Player_FpDXC6fTDz.png?raw=true)  |
