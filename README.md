@@ -1,6 +1,31 @@
-## Components and Blocks
+# Components and Blocks
 -----
-### blocks
+## blocks
+
+#### Status bar
+
+For activity screen use `getWindow()`
+For fragments screen use `getActivity()`
+```java
+{
+  getWindow().getDecorView().setSystemUiVisibility( View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY ); 
+}
+```
+you can use `TRANSPARENT` or `Opacity` [8-digit Hexadecimal](https://davidwalsh.name/hex-opacity)
+```java
+{
+  getWindow().setStatusBarColor(Color.TRANSPARENT);
+  
+}
+```
+
+```java
+{
+  getWindow().setFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS, WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS); 
+}
+
+```
+
 
 #### screen
 
@@ -9,7 +34,7 @@
 
 | linear1     | linear2      | output     |
 | ------------- | ------------- | -------- |
-| ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/main/app/src/main/res/drawable/HD-Player_FgEhlBiUFz.png?raw=true)          | ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/main/app/src/main/res/drawable/HD-Player_FgEhlBiUFz.png?raw=true)         | ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/main/app/src/main/res/drawable/HD-Player_FgEhlBiUFz.png?raw=true)  |
+| ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/58bbbf3025eed636c2d54d8e354a53bc96db0b91/app/src/main/res/drawable/HD-Player_1efIVHaL6g.png?raw=true)          | ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/4639de590ef6a8c9fff734646de417e0c4b89a7e/app/src/main/res/drawable/HD-Player_9owIo7fyWW.png?raw=true)         | ![ouutput](https://github.com/19ProgramminG75/CustomizeBlocks/blob/4639de590ef6a8c9fff734646de417e0c4b89a7e/app/src/main/res/drawable/HD-Player_v7NMBcBWHI.png?raw=true)  |
 
 ```java
 DisplayMetrics displayMetrics = new DisplayMetrics();
