@@ -73,7 +73,7 @@ linear2.setLayoutParams(new LinearLayout.LayoutParams((int) width_px,(int) heigh
 
 [double statusBarHeight = Math.ceil(25 * Resources.getSystem().getDisplayMetrics().density);](https://stackoverflow.com/a/7643649/19917623) origin stockoverflow
 
-[DPI To Pixels Converter](https://www.pixelconverter.com/dpi-to-pixels-converter/) origin pixelconverter
+[Pixel = DP * (DPI/160)](https://www.pixelconverter.com/dp-to-pixel-converter/) origin pixelconverter
 
 ## Examples
 
