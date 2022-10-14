@@ -4,6 +4,13 @@
 
 #### screen
 
+
+
+
+| linear1     | linear2      | output     |
+| ------------- | ------------- | -------- |
+| ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/main/app/src/main/res/drawable/HD-Player_FgEhlBiUFz.png?raw=true)          | ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/main/app/src/main/res/drawable/HD-Player_FgEhlBiUFz.png?raw=true)         | ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/main/app/src/main/res/drawable/HD-Player_FgEhlBiUFz.png?raw=true)  |
+
 ```java
 DisplayMetrics displayMetrics = new DisplayMetrics();
 
