@@ -70,7 +70,7 @@ linear3.setTranslationY((float)(-(height_px)));
 //int total = sbh + sbh;
 //linear1 contains imageview
 linear1.setLayoutParams(new LinearLayout.LayoutParams((int) width_px,(int) height_px));
-//linear2 contains textview button iamges more on factionalities
+//linear2 contains textview button images more on factionalities
 linear2.setLayoutParams(new LinearLayout.LayoutParams((int) width_px,(int) height_px - sbh));
 ((LinearLayout.LayoutParams) linear3.getLayoutParams()).setMargins(0 , (int)sbh, 0, 0);
 //marginToAdd = ((int)(Resources.getSystem().getDisplayMetrics().density * sbh));
