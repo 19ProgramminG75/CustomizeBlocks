@@ -51,10 +51,12 @@ int height_px =Resources.getSystem().getDisplayMetrics().heightPixels;
 int pixeldpi = Resources.getSystem().getDisplayMetrics().densityDpi;
 
 //get the status bar height
-double statusBarHeight = Math.ceil(25 * Resources.getSystem().getDisplayMetrics().density);
+//sbh stands for statusBarHeight
+double sbh = Math.ceil(25 * Resources.getSystem().getDisplayMetrics().density);
 
-int sbh = (int) statusBarHeight;
+//get the value of ( screen width by pixels / pixels density ) * 160
 int width_dp = (width_px/pixeldpi)*160;
+
 int height_dp = (height_px/pixeldpi)*160;
 linear3.setTranslationY((float)(-(height_px)));
 //int total = sbh + sbh;
@@ -66,10 +68,12 @@ linear2.setLayoutParams(new LinearLayout.LayoutParams((int) width_px,(int) heigh
 //marginToAdd = ((int)(Resources.getSystem().getDisplayMetrics().density * sbh));
 //linear3.setMargins((int)sbh, (int)sbh, (int)sbh, (int)sbh);
 ```
+
 [DisplayMetrics displayMetrics = new DisplayMetrics();](https://stackoverflow.com/a/45257847/19917623) origin storkoverflow
 
 [double statusBarHeight = Math.ceil(25 * Resources.getSystem().getDisplayMetrics().density);](https://stackoverflow.com/a/7643649/19917623) origin stockoverflow
 
+[DPI To Pixels Converter](https://www.pixelconverter.com/dpi-to-pixels-converter/) origin pixelconverter
 
 ## Examples
 
