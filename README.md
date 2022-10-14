@@ -31,10 +31,16 @@ you can use `TRANSPARENT` or `Opacity` [8-digit Hexadecimal](https://davidwalsh.
 
 
 
-
+## Example1
 | linear1     | linear2      | output     |
 | ------------- | ------------- | -------- |
 | ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/58bbbf3025eed636c2d54d8e354a53bc96db0b91/app/src/main/res/drawable/HD-Player_1efIVHaL6g.png?raw=true)          | ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/4639de590ef6a8c9fff734646de417e0c4b89a7e/app/src/main/res/drawable/HD-Player_9owIo7fyWW.png?raw=true)         | ![ouutput](https://github.com/19ProgramminG75/CustomizeBlocks/blob/4639de590ef6a8c9fff734646de417e0c4b89a7e/app/src/main/res/drawable/HD-Player_v7NMBcBWHI.png?raw=true)  |
+
+## Example2
+| linear1     | linear2      | output     |
+| ------------- | ------------- | -------- |
+| ![linear1](https://github.com/19ProgramminG75/CustomizeBlocks/blob/399f39aacf644a6bc98efeac95eb2eaa947fb831/app/src/main/res/drawable/HD-Player_n7lP7sgl7U.png?raw=true)          | ![linear2](https://github.com/19ProgramminG75/CustomizeBlocks/blob/main/app/src/main/res/drawable/HD-Player_aSNwEswaBW.png?raw=true)         | ![ouutput](https://github.com/19ProgramminG75/CustomizeBlocks/blob/399f39aacf644a6bc98efeac95eb2eaa947fb831/app/src/main/res/drawable/HD-Player_FpDXC6fTDz.png?raw=true)  |
+
 
 ```java
 DisplayMetrics displayMetrics = new DisplayMetrics();
