@@ -70,11 +70,11 @@ linear2.setLayoutParams(new LinearLayout.LayoutParams((int) width_px,(int) heigh
 
 [double statusBarHeight = Math.ceil(25 * Resources.getSystem().getDisplayMetrics().density);](https://stackoverflow.com/a/7643649/19917623) origin stockoverflow
 
------
+
 ## Examples
------
-to achive thant output you need to use [Status Rar](https://github.com/19ProgramminG75/CustomizeBlocks/blob/main/README.md#status-bar)
-and use this auto scaling to get the perfect output [Screen](https://github.com/19ProgramminG75/CustomizeBlocks/edit/main/README.md#screen-code)
+
+To achive that output you need to use [Status Bar](https://github.com/19ProgramminG75/CustomizeBlocks/blob/main/README.md#status-bar)
+and use this screen scaling to get the perfect output [Screen](https://github.com/19ProgramminG75/CustomizeBlocks/edit/main/README.md#screen-code)
 ## Example1
 
 | linear1     | linear2      | output     |
