@@ -30,8 +30,6 @@ you can use `TRANSPARENT` or `Opacity` [8-digit Hexadecimal](https://davidwalsh.
 
 ## Screen Customization
 
-
-### screen code
 ```java
 DisplayMetrics displayMetrics = new DisplayMetrics();
 
@@ -78,7 +76,7 @@ linear2.setLayoutParams(new LinearLayout.LayoutParams((int) width_px,(int) heigh
 ## Examples
 
 To achive that output you need to use [Status Bar](https://github.com/19ProgramminG75/CustomizeBlocks/blob/main/README.md#status-bar)
-and use this screen scaling to get the perfect output [Screen](https://github.com/19ProgramminG75/CustomizeBlocks/edit/main/README.md#screen-code)
+and use this screen scaling to get the perfect output [Screen](https://github.com/19ProgramminG75/CustomizeBlocks/edit/main/README.md#screen-customization)
 ## Example1
 
 | linear1     | linear2      | output     |
