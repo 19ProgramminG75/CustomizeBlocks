@@ -30,8 +30,10 @@ int width_dp = (width_px/pixeldpi)*160;
 int height_dp = (height_px/pixeldpi)*160;
 linear3.setTranslationY((float)(-(height_px)));
 //int total = sbh + sbh;
-linear2.setLayoutParams(new LinearLayout.LayoutParams((int) width_px,(int) height_px));
-linear3.setLayoutParams(new LinearLayout.LayoutParams((int) width_px,(int) height_px - sbh));
+//linear1 contains imageview
+linear1.setLayoutParams(new LinearLayout.LayoutParams((int) width_px,(int) height_px));
+//linear2 contains textview button iamges more on factionalities
+linear2.setLayoutParams(new LinearLayout.LayoutParams((int) width_px,(int) height_px - sbh));
 ((LinearLayout.LayoutParams) linear3.getLayoutParams()).setMargins(0 , (int)sbh, 0, 0);
 //marginToAdd = ((int)(Resources.getSystem().getDisplayMetrics().density * sbh));
 //linear3.setMargins((int)sbh, (int)sbh, (int)sbh, (int)sbh);
