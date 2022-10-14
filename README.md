@@ -16,17 +16,27 @@ you can use `TRANSPARENT` or `Opacity` [8-digit Hexadecimal](https://davidwalsh.
 ```java
 {
   getWindow().setStatusBarColor(Color.TRANSPARENT);
-  
 }
 ```
-
+To support android 11 
 ```java
 {
   getWindow().setFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS, WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS); 
 }
 
 ```
-
+### Final Code
+```java
+{
+  getWindow().getDecorView().setSystemUiVisibility( View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY ); 
+}
+{
+  getWindow().setStatusBarColor(Color.TRANSPARENT); 
+}
+{
+  getWindow().setFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS, WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS); 
+}
+```
 
 ## Screen Customization
 
