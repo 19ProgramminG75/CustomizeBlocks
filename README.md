@@ -1,6 +1,6 @@
 # Components and Blocks
 -----
-## blocks
+# blocks
 
 ## Status bar
 
