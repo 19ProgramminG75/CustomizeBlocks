@@ -2,7 +2,7 @@
 -----
 ## blocks
 
-#### Status bar
+## Status bar
 
 For activity screen use `getWindow()`
 For fragments screen use `getActivity()`
@@ -28,7 +28,7 @@ you can use `TRANSPARENT` or `Opacity` [8-digit Hexadecimal](https://davidwalsh.
 ```
 
 
-#### Screen Customization
+## Screen Customization
 
 
 ### screen code
